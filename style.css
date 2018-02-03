@@ -1,0 +1,73 @@
+
+body { /* 0,0,0,1 = 1 */
+  background-color: white;
+}
+
+p { /* 0,0,0,1 = 1 */
+  font-size: 25px;
+  color: black;
+}
+
+header { /* 0,0,0,1 = 1 */
+  color: black;
+  font-size: 25px;
+  background-color: gray;
+  border: 2px solid black;
+  padding-top: 25px;
+  margin: 0;
+  height: 160px;
+  text-align: center;
+  background-image: url(sunset.jpg);
+  background-repeat: no-repeat;
+}
+
+table {
+  margin: 50px;
+  font-size: 25px
+}
+
+table tr th {
+    color: red;
+}
+
+table tr td {
+  color: blue;
+  background-color: gray;
+}
+
+img { /* 0,0,0,1 = 1 */
+  height: 300px;
+  width: 20%;
+  padding: 10px;
+  border: 5px solid black;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+fieldset {
+  width: 150px;
+}
+
+footer { /* 0,0,0,1 = 1 */
+  font-weight: bold;
+  background-image: url(sunset.jpg);
+  height: 50px;
+  text-align: center;
+  padding-top: 0.5px;
+}
+
+.bold { /* 0,0,1,0 = 10 */
+  font-weight: bold;
+  color: black;
+}
+
+}
+
+#links { /* 0,1,0,0 = 100 */
+  background-color: silver;
+  width: 280px;
+  margin: auto;
+  border: 2px solid black;
+  height: 30px;
+}
